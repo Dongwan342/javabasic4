@@ -32,7 +32,7 @@ public class Application02 {
 
         System.out.println("methodB() 시~시~시~ 작!");
 
-        System.out.println("methodA() 끝~");
+        System.out.println("methodB() 끝~");
 
     }
 

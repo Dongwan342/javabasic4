@@ -18,7 +18,7 @@ public class Application03 {
            */
         Application03 app3 = new Application03();
         /* 목차. 1. 전달인자로 값 전달 테스트 */
-        app3. testMethod(20);
+//        app3. testMethod(20);
 //        int age1 = 30;
 //        System.out.println("당신의 나이는 : " + age1 + "세 입니다.");
 //        int age2 = 40;
@@ -36,11 +36,11 @@ public class Application03 {
         app3.testMethod(age);
 
         /* 목차. 2-2. 자동형변환을 이용하여 값 전달을 할 수 있다. */
-        byte byteAge = 10;
+        byte byteAge = 30;
         app3.testMethod(byteAge);
 
         /* 목차. 2-3. 강제형변환을 이용해서 값 전달을 할 수 있다. */
-        long longAge = 80;
+        long longAge = 1500;
         app3.testMethod((int)longAge);
 
 //        double doubleAge = 2;
